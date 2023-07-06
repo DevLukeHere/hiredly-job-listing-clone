@@ -1,7 +1,7 @@
 "use client";
 
-import Colors from "../colors/colors";
-import { useJobs } from "../hooks/useJobs";
+import Colors from "../_lib/colors";
+import { useJobs } from "../_hooks/useJobs";
 
 export default function Jobs() {
   const { jobs, isLoading } = useJobs(null, null, "", null, "");

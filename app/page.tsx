@@ -1,4 +1,4 @@
-import Colors from "./colors/colors";
+import Colors from "./_lib/colors";
 
 export default function Home() {
   return (

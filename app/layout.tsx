@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { Inter } from "next/font/google";
-import DrawerAppBar from "../app/components/AppBar";
+import DrawerAppBar from "./_components/AppBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
